@@ -1,0 +1,38 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "pools:pool_placement",
+            "places_feature": "pools:pool_scene"
+        },
+        "conditions": {
+            "placement_pass": "surface_pass",
+            "minecraft:biome_filter": {
+                "test": "has_biome_tag",
+                "value": "overworld"
+            }
+        },
+        "distribution": {
+            "iterations": "t.inscribingrectangle_size_x = 7 + query.noise(v.worldx, v.worldz); t.inscribingrectangle_size_z = 7 + query.noise(v.worldx + 16, v.worldz + 16); t.inscribingrectangle_originoffset_x = math.floor(-t.inscribingrectangle_size_x / 2); t.inscribingrectangle_originoffset_z = math.floor(-t.inscribingrectangle_size_z / 2); return ( ( ( ( (v.originz < -105508 && v.originz > -31323200) || (v.originz > 105508 && v.originz < 31323200) ) && ( (v.originx < -105508 && v.originx > -31323200) || (v.originx > 105508 && v.originx < 31323200) ) ) && !(v.originz <= -105508 && v.originx >= 105508 )) ? 1 : 0);",
+            "scatter_chance": {
+                "numerator": 1,
+                "denominator": 5
+            },
+            "x": {
+                "distribution": "uniform",
+                "extent": [
+                    "t.inscribingrectangle_originoffset_x",
+                    "t.inscribingrectangle_originoffset_x + 16"
+                ]
+            },
+            "z": {
+                "distribution": "uniform",
+                "extent": [
+                    "t.inscribingrectangle_originoffset_z",
+                    "t.inscribingrectangle_originoffset_z + 16"
+                ]
+            },
+            "y": 0
+        }
+    }
+}
