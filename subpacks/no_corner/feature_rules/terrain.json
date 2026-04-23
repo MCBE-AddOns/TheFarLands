@@ -1,0 +1,49 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "farlands:terrain",
+			"places_feature": "farlands:terrain_scatter"
+		},
+
+		"conditions": {
+			"placement_pass": "first_pass",
+
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"value": "overworld"
+					},
+					{
+						"test": "has_biome_tag",
+						"value": "overworld_generation"
+					}
+				]
+			}
+		},
+
+		"distribution": {
+			"iterations": 49152,
+			//65536
+
+			"x": {
+				"distribution": "fixed_grid",
+				"extent": [0, 15]
+			},
+			"z": {
+				"distribution": "fixed_grid",
+				"extent": [0, 15]
+			},
+			"y": {
+				"distribution": "fixed_grid",
+			    "extent": [-63, 319]
+				//"step_size": 16
+				
+				//16
+			}
+			
+		}
+	}
+}

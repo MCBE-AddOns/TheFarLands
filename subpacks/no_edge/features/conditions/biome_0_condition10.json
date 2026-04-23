@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wiki:conditions/biome_0_condition10"
+		},
+		"places_feature": "wiki:blocks/water",
+		"iterations": " (t.biome_idx == 0 && (v.originy <= 62 && v.originy >= -63)) ",
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

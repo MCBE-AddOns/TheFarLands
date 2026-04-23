@@ -1,0 +1,29 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "farlands:tree/tree_feature"
+        },
+        "features": [
+            //"farlands:flower/flower_feature",
+            "farlands:tree/dead_bush_feature_scatter",
+            "farlands:tree/ice_spike_feature_scatter",
+            "farlands:tree/cactus_feature_scatter",
+            "farlands:tree/tall_grass_feature_scatter",
+            "farlands:tree/roofed_tree_feature_scatter",
+            "farlands:tree/mushroom_tree_feature_scatter",
+            "farlands:tree/bamboo_tree_feature_scatter",
+            "farlands:tree/jungle_tree_feature_scatter",
+            "farlands:tree/cherry_tree_feature_scatter",
+            "farlands:tree/mangrove_tree_feature_scatter",
+            "farlands:tree/taiga_tree_feature_scatter",
+            "farlands:tree/savanna_tree_feature_scatter",
+            "farlands:tree/oak_tree_feature_scatter",
+            "farlands:tree/swamp_tree_feature_scatter",
+            "farlands:tree/birch_tree_feature_scatter",
+            "farlands:tree/pink_petals_feature_scatter",
+            "farlands:tree/sweet_berry_bush_feature_scatter",
+            "farlands:tree/select_flower_feature_scatter"
+        ]
+    }
+}

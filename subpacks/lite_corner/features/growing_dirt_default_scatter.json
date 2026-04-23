@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:growing_dirt_default_scatter"
+        },
+        "iterations": "t.biome_check=(query.has_biome_tag('overworld_generation') == 1 || query.has_biome_tag('overworld') == 1 && query.has_biome_tag('mesa') == 0 && query.has_biome_tag('desert') == 0) ? (( v.originy >= 50 ) ? 1 : 0) : 0; return t.biome_check;",
+        "places_feature": "farlands:growing_dirt_default",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

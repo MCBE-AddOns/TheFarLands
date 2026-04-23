@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "lavas:lava_search_west_placement"
+		},
+
+		"places_feature": "lavas:lava_search",
+
+		"iterations": 1,
+
+		"x": -7,
+		"z": 1,
+		"y": 62
+	}
+}

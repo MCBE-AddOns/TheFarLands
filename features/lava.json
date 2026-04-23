@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "lavas:lava"
+		},
+
+		"features": [
+			"lavas:lava1",
+			"lavas:lava2",
+			"lavas:lava3",
+			"lavas:lava4",
+			//"lavas:lava5",
+			"lavas:lava6",
+			"lavas:lava7",
+			"lavas:lava8",
+			"lavas:lava9"
+		]
+		//"early_out": "first_failure"
+	}
+}

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:terrain_scatter"
+        },
+        "iterations": "t.height = ( ((v.originz >= 105508 && v.originz <= 31323200 && v.originx <= 105508 && v.originx >= -105508) || (v.originz <= -105508 && v.originz >= -31323200 && v.originx <= 105508 && v.originx >= -105508)) || ((v.originx >= 105508 && v.originx <= 31323200 && v.originz <= 105508 && v.originz >= -105508) || (v.originx <= -105508 && v.originx >= -31323200 && v.originz <= 105508 && v.originz >= -105508)) ) ? 1 : 0 ; return t.height;",
+        "places_feature": "farlands:terrain_aggregate",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

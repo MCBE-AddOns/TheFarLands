@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "farlands:tree/birch_tree_aggregate_feature"
+        },
+        "features": [
+            //"farlands:terrain_clearance",
+            //"farlands:terrain_water"
+            //"farlands:edge_farlands_bottom"
+            //"farlands:edge_farlands_middle",
+            "minecraft:select_super_birch_tree_feature",
+            "minecraft:select_birch_tree_feature"
+        ]
+    }
+}

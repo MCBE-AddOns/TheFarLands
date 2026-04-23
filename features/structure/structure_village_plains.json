@@ -1,0 +1,22 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+		  "identifier": "farlands:structure/structure_village_plains"
+		},
+		"features": [
+			"farlands:structure/structure_village_plains_town_centers_aggregate",
+			"farlands:structure/structure_village_plains_streets_scatter_1",
+			"farlands:structure/structure_village_plains_houses_scatter_1",
+			"farlands:structure/structure_village_plains_streets_scatter_2",
+			"farlands:structure/structure_village_plains_houses_scatter_2",
+			"farlands:structure/structure_village_plains_streets_scatter_3",
+			"farlands:structure/structure_village_plains_houses_scatter_3",
+			"farlands:structure/structure_village_plains_streets_scatter_4",
+			"farlands:structure/structure_village_plains_houses_scatter_4"
+		]
+		//"early_out": "first_failure"
+	}
+}
+
+

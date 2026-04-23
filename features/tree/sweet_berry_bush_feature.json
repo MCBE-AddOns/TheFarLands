@@ -1,0 +1,28 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "farlands:tree/sweet_berry_bush_feature"
+        },
+        "places_block": {
+            "name": "minecraft:sweet_berry_bush",
+            "states": {
+                "growth": 7
+            }
+        },
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_attach_to": {
+            "min_sides_must_attach": 1,
+            "bottom": [
+                "minecraft:dirt",
+                "minecraft:stone",
+                "minecraft:grass",
+                "minecraft:podzol"
+            ]
+        },
+        "may_replace": [
+            "minecraft:air"
+        ]
+    }
+}

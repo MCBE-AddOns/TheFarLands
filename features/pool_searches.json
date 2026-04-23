@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "pools:pool_searches"
+		},
+
+		"features": [
+			"pools:pool_search_east_placement",
+			"pools:pool_search_south_placement",
+			"pools:pool_search_west_placement",
+			"pools:pool_search_north_placement"
+		],
+		"early_out": "first_success"
+	}
+}

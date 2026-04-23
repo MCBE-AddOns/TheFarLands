@@ -1,0 +1,22 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "pools:pool"
+		},
+
+		"features": [
+			"pools:pool1",
+			"pools:pool2",
+			"pools:pool3",
+			"pools:pool4",
+			//"pools:pool5",
+			"pools:pool6",
+			"pools:pool7",
+			"pools:pool8",
+			"pools:pool9"
+		]
+		//"early_out": "first_failure"
+	}
+}

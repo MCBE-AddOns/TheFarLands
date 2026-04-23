@@ -1,0 +1,24 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "wiki:blocks/dirt_default"
+        },
+        "places_block": "minecraft:dirt",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_attach_to": {
+            "min_sides_must_attach": 1,
+            "bottom": [
+                "minecraft:stone",
+                "minecraft:dirt"
+            ]
+        },
+        "may_replace": [
+            "minecraft:air",
+            "minecraft:grass",
+            "minecraft:podzol",
+            "minecraft:vine"
+        ]
+    }
+}

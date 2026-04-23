@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+		  "identifier": "farlands:structure/structure_village_desert_town_centers_aggregate"
+		},
+		"features": [
+			"farlands:structure/structure_village_check",
+			"farlands:structure/structure_village_desert_town_centers"
+			
+		],
+		"early_out": "first_failure"
+	}
+}
+
+

@@ -1,0 +1,12 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wiki:blocks/grass_mega_aggregate"
+		},
+		"features": [
+			"wiki:blocks/grass_default",
+			"wiki:blocks/grass_mega"
+		]
+	}
+}

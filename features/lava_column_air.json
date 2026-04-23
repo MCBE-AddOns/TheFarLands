@@ -1,0 +1,20 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "lavas:lava_column_air"
+		},
+
+		"places_feature": "lavas:lava_air",
+
+		"iterations": 12,
+
+		"x": 0,
+		"z": 0,
+		"y": {
+			"distribution": "fixed_grid",
+			"extent": [0, 11]
+		}
+	}
+}

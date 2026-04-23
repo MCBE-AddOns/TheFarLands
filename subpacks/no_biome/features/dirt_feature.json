@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "farlands:dirt_feature"
+		},
+		"features": [
+			"farlands:dirt_feature_default_scatter"
+			//"farlands:dirt_feature_mesa_scatter",
+			//"farlands:dirt_feature_desert_scatter"
+		]
+	}
+}

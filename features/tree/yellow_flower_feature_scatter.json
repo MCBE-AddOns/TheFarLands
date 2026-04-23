@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:tree/yellow_flower_feature_scatter"
+        },
+        "iterations": "t.weight=(math.mod(math.random_integer(1,2),2) == 0) ? 1 : 0; return t.weight;",
+        "places_feature": "farlands:tree/yellow_flower_feature",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

@@ -1,0 +1,42 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_fossils_select"
+		},
+		"features": [
+			[
+				"farlands:structure/structure_fossil_skull_01",
+				5
+			],
+			[
+				"farlands:structure/structure_fossil_skull_02",
+				5
+			],
+			[
+				"farlands:structure/structure_fossil_skull_03",
+				5
+			],
+			[
+				"farlands:structure/structure_fossil_skull_04",
+				5
+			],
+			[
+				"farlands:structure/structure_fossil_spine_01",
+				5
+			],
+			[
+				"farlands:structure/structure_fossil_spine_02",
+				5
+			],
+			[
+				"farlands:structure/structure_fossil_spine_03",
+				5
+			],
+			[
+				"farlands:structure/structure_fossil_spine_04",
+				5
+			]
+		]
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "farlands:growing_stone_scatter"
+		},
+		"places_feature": "farlands:growing_stone",
+		"iterations": "t.placement = ( v.originy <= 52 && v.originy >= 51 ) ? 1 : 0; return t.placement;",
+		"x": 0,
+		"z": 0,
+		"y": 0
+	}
+}

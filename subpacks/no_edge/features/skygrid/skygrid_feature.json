@@ -1,0 +1,14 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:skygrid/skygrid_feature"
+        },
+        "iterations": " t.height = (v.worldz < -105508 && v.worldx > 105508 ) ? ((math.mod(math.abs(v.worldx),4) == 0 && math.mod(math.abs(v.worldy),8) == 0 && math.mod(math.abs(v.worldz),4) == 0 && ( ((q.noise(v.worldy/16,v.worldx/16)) > 0.01) || ((q.noise(v.worldz/16,v.worldy/16)) > 0.01) ) ) ? 1 : 0) : 0; return t.height;",
+        "places_feature": "wiki:blocks/grass",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}
+

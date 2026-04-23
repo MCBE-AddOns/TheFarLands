@@ -1,0 +1,20 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_village_taiga_town_centers"
+		},
+		"features": [
+			[
+				"farlands:structure/structure_village_taiga_meeting_point_1",
+				25
+			],
+			[
+				"farlands:structure/structure_village_taiga_meeting_point_2",
+				25
+			]
+		]
+	}
+}
+
+

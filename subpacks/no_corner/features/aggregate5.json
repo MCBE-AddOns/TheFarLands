@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "farlands:aggregate5"
+        },
+        "features": [
+            //"farlands:terrain_clearance",
+            //"farlands:terrain_water"
+            //"farlands:edge_farlands_bottom"
+            //"farlands:edge_farlands_middle",
+            "farlands:next5",
+            "farlands:dirt_feature"
+        ]
+    }
+}

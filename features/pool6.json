@@ -1,0 +1,23 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "pools:pool6"
+		},
+
+		"places_feature": "pools:pool_column_determination",
+
+		"iterations": "t.inscribingrectangle_center_x = v.originx - t.inscribingrectangle_originoffset_x; t.inscribingrectangle_center_z = v.originz - t.inscribingrectangle_originoffset_z; t.pool_height = 61 + query.noise(v.worldx - 16, v.worldz - 16); return t.inscribingrectangle_size_x * t.inscribingrectangle_size_z;",
+
+		"x": {
+			"distribution": "fixed_grid",
+			"extent": [0, "t.inscribingrectangle_size_x - 1"]
+		},
+		"z": {
+			"distribution": "fixed_grid",
+			"extent": [0, "t.inscribingrectangle_size_z - 1"]
+		},
+		"y": "t.pool_height + 107"
+	}
+}

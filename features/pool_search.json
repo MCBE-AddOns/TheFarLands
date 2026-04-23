@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:search_feature": {
+		"description": {
+			"identifier": "pools:pool_search"
+		},
+
+		"places_feature": "pools:pool_search_water",
+
+		"search_volume": {
+			"min": [0, 0, 0],
+			"max": [3, 0, 3]
+		},
+		"search_axis": "+x",
+		"required_successes": 16
+	}
+}

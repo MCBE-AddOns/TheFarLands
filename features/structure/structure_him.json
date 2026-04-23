@@ -1,0 +1,13 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+	  "description": {
+		"identifier": "farlands:structure/structure_him"
+	  },
+	  "structure_name": "mystructure:him",
+	  "adjustment_radius": 16,
+	  "facing_direction": "south",
+	  "constraints": {
+	  }
+	}
+  }

@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "farlands:growing_dirt"
+		},
+		"features": [
+			"farlands:growing_dirt_default_scatter",
+			//"wiki:blocks/stone_mesa_scatter",
+			"farlands:growing_dirt_desert_scatter"
+		]
+	}
+}

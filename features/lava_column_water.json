@@ -1,0 +1,20 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "lavas:lava_column_water"
+		},
+
+		"places_feature": "lavas:lava_water",
+
+		"iterations": "t.lava_column_water_height",
+
+		"x": 0,
+		"z": 0,
+		"y": {
+			"distribution": "fixed_grid",
+			"extent": [0, "t.lava_column_water_height - 1"]
+		}
+	}
+}

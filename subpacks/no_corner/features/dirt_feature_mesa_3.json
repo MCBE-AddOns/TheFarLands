@@ -1,0 +1,27 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "farlands:dirt_feature_mesa_3"
+        },
+        "places_block": "minecraft:red_terracotta",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_replace": [
+            //"minecraft:air",
+            "minecraft:orange_terracotta",
+            "minecraft:red_terracotta",
+            "minecraft:yellow_terracotta",
+            "minecraft:white_terracotta",
+            "minecraft:light_gray_terracotta",
+            "minecraft:brown_terracotta",
+            "minecraft:hardened_clay",
+            {
+                "name": "minecraft:sand",
+                "states": {
+                    "sand_type": "red"
+                }
+            }
+        ]
+    }
+}

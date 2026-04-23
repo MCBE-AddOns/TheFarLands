@@ -1,0 +1,11 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "wiki:blocks/stone_default_deepslate"
+        },
+        "places_block": "minecraft:deepslate",
+        "enforce_placement_rules": false,
+        "enforce_survivability_rules": false
+    }
+}

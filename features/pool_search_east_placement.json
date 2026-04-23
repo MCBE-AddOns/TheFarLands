@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "pools:pool_search_east_placement"
+		},
+
+		"places_feature": "pools:pool_search",
+
+		"iterations": 1,
+
+		"x": "t.inscribingrectangle_size_x + 3",
+		"z": 1,
+		"y": 62
+	}
+}

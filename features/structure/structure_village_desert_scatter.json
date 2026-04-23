@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:structure/structure_village_desert_scatter"
+        },
+        "iterations": "t.biome_check=(query.has_biome_tag('desert') == 1) ? 1 : 0; return t.biome_check;",
+        "places_feature": "farlands:structure/structure_village_desert",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}
+
+
+

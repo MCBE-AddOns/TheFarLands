@@ -1,0 +1,12 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "farlands:dirt_feature_mesa_next2"
+		},
+		"features": [
+			"farlands:dirt_feature_mesa_2",
+			"farlands:dirt_feature_mesa_3_scatter"
+		]
+	}
+}

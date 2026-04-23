@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:aggregate_feature": {
+        "description": {
+            "identifier": "farlands:tree/ice_spike_feature"
+        },
+        //"early_out": "first_success",
+        "features": [
+            "minecraft:ice_spike_feature",
+            "minecraft:ice_patch_feature"
+        ]
+    }
+}

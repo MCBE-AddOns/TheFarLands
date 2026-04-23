@@ -1,0 +1,43 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "farlands:structure_pillager_outpost",
+            "places_feature": "farlands:structure/structure_pillager_outpost"
+        },
+        "conditions": {
+            "placement_pass": "after_surface_pass",
+            "minecraft:biome_filter": [
+                {
+                    "all_of": [
+                        {
+                            "test": "has_biome_tag",
+                            "value": "mesa",
+                            "operator": "not"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "value": "nether",
+                            "operator": "not"
+                        },
+                        {
+                            "test": "has_biome_tag",
+                            "value": "the_end",
+                            "operator": "not"
+                        }
+                    ]
+                }
+            ]
+        },
+        "distribution": {
+            "iterations": "return    ( ( (v.originz >= 105508 && v.originz <= 31323200) || (v.originz <= -105508 && v.originz >= -31323200 ) || (v.originx >= 105508 && v.originx <= 31323200) || (v.originx <= -105508 && v.originx >= -31323200 ) )  ? 1 : 0);",
+            "scatter_chance": {
+                "numerator": 1,
+                "denominator": 400
+            },
+            "x": 0,
+            "y": "query.above_top_solid(variable.worldx, variable.worldz) - 1", //Generates the feature on the highest block on the column
+            "z": 0
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "farlands:skygrid/skygrid_column"
+		},
+		"places_feature": "farlands:skygrid/skygrid_grid",
+		"iterations": 256,
+		"x": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		},
+		"z": {
+			"distribution": "fixed_grid",
+			"extent": [0, 15]
+		},
+		"y": 0
+	}
+}

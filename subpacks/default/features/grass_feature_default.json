@@ -1,0 +1,20 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "farlands:grass_feature_default"
+        },
+        "places_block": "minecraft:grass",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_attach_to": {
+            "min_sides_must_attach": 1,
+            "top": [
+                "minecraft:air"
+            ]
+        },
+        "may_replace": [
+            "minecraft:air"
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:next3"
+        },
+        "places_feature": "farlands:aggregate4",
+        "iterations": "return t.interpolation;",
+        "x": 0,
+        "z": 0,
+        "y": 1
+    }
+}

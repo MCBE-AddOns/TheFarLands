@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wiki:blocks/dirt"
+		},
+		"features": [
+			"wiki:blocks/dirt_default_scatter"
+			//"wiki:blocks/dirt_mesa_scatter",
+			//"wiki:blocks/dirt_desert_scatter"
+		]
+	}
+}

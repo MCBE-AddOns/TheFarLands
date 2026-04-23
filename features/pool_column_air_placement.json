@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "pools:pool_column_air_placement"
+		},
+
+		"places_feature": "pools:pool_column_air",
+
+		"iterations": 1,
+
+		"x": 0,
+		"z": 0,
+		"y": "t.pool_column_water_height + 1"
+	}
+}

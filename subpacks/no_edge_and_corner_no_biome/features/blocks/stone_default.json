@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wiki:blocks/stone_default"
+		},
+		"features": [
+			"wiki:blocks/stone_default_stone_scatter",
+			"wiki:blocks/stone_default_deepslate_scatter",
+			"wiki:blocks/stone_default_deepslate_ore_scatter"
+		]
+	}
+}

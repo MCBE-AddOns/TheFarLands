@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wiki:conditions/biome_1_condition8"
+		},
+		"places_feature": "wiki:blocks/block_aggregate",
+		"iterations": "t.biome_idx == 1 && (v.originy <= 122 && v.originy >= 101)",
+		"x": 0,
+		"z": 0,
+		"y": " (q.noise(v.worldx / 64, v.worldz / 64) > 0.5 ? (q.noise(v.worldx / 16, v.worldz / 8) > 0.01 ? 1 : 0) : (q.noise(v.worldz / 16, (v.worldx + 543) / 8) > 0.01 ? 10 : 1))"
+		
+	}
+}

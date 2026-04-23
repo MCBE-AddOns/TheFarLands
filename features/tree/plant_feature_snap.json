@@ -1,0 +1,11 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:snap_to_surface_feature": {
+    "description": {
+      "identifier": "farlands:tree/plant_feature_snap"
+    },
+    "feature_to_snap":  "farlands:tree/tall_grass_feature_scatter",
+    "vertical_search_range":  256,
+    "surface": "floor"
+  }
+}

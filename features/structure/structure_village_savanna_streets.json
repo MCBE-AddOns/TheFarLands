@@ -1,0 +1,44 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_village_savanna_streets"
+		},
+		"features": [
+			[
+				"farlands:structure/structure_village_savanna_straight_02",
+				5
+			],
+			[
+				"farlands:structure/structure_village_savanna_straight_04",
+				5
+			],
+			[
+				"farlands:structure/structure_village_savanna_straight_05",
+				5
+			],
+			[
+				"farlands:structure/structure_village_savanna_straight_06",
+				5
+			],
+			[
+				"farlands:structure/structure_village_savanna_straight_08",
+				5
+			],
+			[
+				"farlands:structure/structure_village_savanna_straight_09",
+				5
+			],
+			[
+				"farlands:structure/structure_village_savanna_straight_10",
+				5
+			],
+			[
+				"farlands:structure/structure_village_savanna_straight_11",
+				5
+			]
+		]
+	}
+}
+
+

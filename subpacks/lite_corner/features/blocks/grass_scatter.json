@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wiki:blocks/grass_scatter"
+		},
+
+		"places_feature": "wiki:blocks/grass",
+
+		"iterations": 1,
+
+		"x": 0,
+		"z": 0,
+		"y": 1
+		//"t.column_height"
+	}
+}

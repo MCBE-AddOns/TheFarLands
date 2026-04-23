@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "lavas:lava_searches"
+		},
+
+		"features": [
+			"lavas:lava_search_east_placement",
+			"lavas:lava_search_south_placement",
+			"lavas:lava_search_west_placement",
+			"lavas:lava_search_north_placement"
+		],
+		"early_out": "first_success"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "pools:pool_column_water_placement"
+		},
+
+		"places_feature": "pools:pool_column_water",
+
+		"iterations": "t.pool_column_water_height = 62 - t.pool_height; return t.pool_column_water_height > 0;",
+
+		"x": 0,
+		"z": 0,
+		"y": 1
+	}
+}

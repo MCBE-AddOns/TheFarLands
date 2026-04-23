@@ -1,0 +1,34 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "wiki:blocks/dirt_mesa_0_default"
+        },
+        "places_block": "minecraft:hardened_clay",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        "may_attach_to": {
+            "min_sides_must_attach": 1,
+            "bottom": [
+                "minecraft:air",
+                "minecraft:orange_terracotta",
+                "minecraft:red_terracotta",
+                "minecraft:yellow_terracotta",
+                "minecraft:white_terracotta",
+                "minecraft:light_gray_terracotta",
+                "minecraft:brown_terracotta",
+                "minecraft:hardened_clay"
+            ]
+        },
+        "may_replace": [
+            "minecraft:air",
+            {
+            "name": "minecraft:sand",
+            "states": {
+                "sand_type": "red"
+            }
+        },
+            "minecraft:vine"
+        ]
+    }
+}

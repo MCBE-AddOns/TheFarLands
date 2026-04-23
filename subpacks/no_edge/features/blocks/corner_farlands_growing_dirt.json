@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wiki:blocks/corner_farlands_growing_dirt"
+		},
+		"features": [
+			"wiki:blocks/corner_farlands_growing_dirt_default_scatter",
+			//"wiki:blocks/corner_farlands_growing_dirt_mesa_scatter",
+			"wiki:blocks/corner_farlands_growing_dirt_desert_scatter"
+		]
+	}
+}

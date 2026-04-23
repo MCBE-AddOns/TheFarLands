@@ -1,0 +1,19 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_village_desert_houses_scatter_2"
+		},
+
+		"places_feature": "farlands:structure/structure_village_desert_houses_aggregate",
+
+		"iterations": 1,
+
+		"x": 16,
+		"z": -4,//random
+		"y": 0
+	}
+}
+
+

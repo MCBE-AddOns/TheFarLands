@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+		  "identifier": "farlands:structure/structure_village_snowy_streets_2_aggregate"
+		},
+		"features": [
+			"farlands:structure/structure_village_check",
+			"farlands:structure/structure_village_snowy_streets_2"
+			
+		],
+		"early_out": "first_failure"
+	}
+}
+
+

@@ -1,0 +1,14 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "pools:pool_column_water_selection"
+		},
+
+		"features": [
+			"pools:pool_water"
+		],
+		"early_out": "first_success"
+	}
+}

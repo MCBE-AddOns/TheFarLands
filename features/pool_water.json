@@ -1,0 +1,47 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "pools:pool_water"
+		},
+
+		"places_block": "minecraft:water",
+
+		"enforce_placement_rules": false,
+		"enforce_survivability_rules": false,
+		"may_attach_to": {
+			"bottom": [
+				"minecraft:sand",
+				"minecraft:sandstone",
+				"minecraft:stone",
+				"minecraft:hardened_clay",
+                "minecraft:orange_terracotta",
+                "minecraft:red_terracotta",
+                "minecraft:yellow_terracotta",
+                "minecraft:white_terracotta",
+                "minecraft:light_gray_terracotta",
+                "minecraft:brown_terracotta",
+				"minecraft:dirt",
+				"minecraft:water"
+			],
+			"sides": [
+				"minecraft:sand",
+				"minecraft:sandstone",
+				"minecraft:stone",
+				"minecraft:hardened_clay",
+                "minecraft:orange_terracotta",
+                "minecraft:red_terracotta",
+                "minecraft:yellow_terracotta",
+                "minecraft:white_terracotta",
+                "minecraft:light_gray_terracotta",
+                "minecraft:brown_terracotta",
+				"minecraft:dirt",
+				"minecraft:grass",
+				"minecraft:podzol",
+				"minecraft:mycelium",
+				"minecraft:water"
+			]
+		}
+	}
+}

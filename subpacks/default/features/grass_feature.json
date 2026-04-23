@@ -1,0 +1,15 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "farlands:grass_feature"
+		},
+		"features": [
+			"farlands:grass_feature_default_scatter",
+			"farlands:grass_feature_mushroom_island_scatter",
+			"farlands:grass_feature_mega_scatter",
+			"farlands:grass_feature_mesa_scatter",
+			"farlands:grass_feature_desert_scatter"
+		]
+	}
+}

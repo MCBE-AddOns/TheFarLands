@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "farlands:dirt_feature_mesa_0_default"
+        },
+        "places_block": "minecraft:hardened_clay",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        
+        "may_replace": [
+            "minecraft:air"
+        ]
+        
+    }
+}

@@ -1,0 +1,19 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+		  "identifier": "wiki:biomes/block_picker3"
+		  /*
+		  places the block associated with this biome
+		  see the conditions folder for the conditions
+		  to add more biomes, add more conditions (make sure to also make an entry in the conditions folder)
+		  */
+		},
+		"features": [
+			"wiki:conditions/biome_0_condition3",
+			"wiki:conditions/biome_1_condition3"
+		
+		],
+		"early_out": "first_success"
+	}
+}

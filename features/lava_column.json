@@ -1,0 +1,16 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "lavas:lava_column"
+		},
+
+		"features": [
+			"lavas:lava_column_water_selection",
+			"lavas:lava_column_water_placement",
+			"lavas:lava_column_air_placement"
+		],
+		"early_out": "first_failure"
+	}
+}

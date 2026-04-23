@@ -1,0 +1,18 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "farlands:structure/structure_lich_tower"
+        },
+        "structure_name": "mystructure:lich_tower",
+        "adjustment_radius": 8,
+        "facing_direction": "south",
+        "constraints": {
+            "block_intersection": {
+                "block_allowlist": [
+                    "minecraft:air"
+                ]
+            }
+        }
+    }
+}

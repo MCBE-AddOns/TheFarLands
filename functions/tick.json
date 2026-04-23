@@ -1,0 +1,8 @@
+//bridge-file-version: #0
+{
+	"values": [
+		"structure_lich_tower",
+		"portal_create",
+		"tickingarea"
+	]
+}

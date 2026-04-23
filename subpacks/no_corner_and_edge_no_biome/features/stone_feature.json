@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "farlands:stone_feature"
+		},
+		"features": [
+			"farlands:stone_feature_default_scatter"
+			//"wiki:blocks/stone_mesa_scatter",
+			//"wiki:blocks/stone_desert_scatter"
+		]
+	}
+}

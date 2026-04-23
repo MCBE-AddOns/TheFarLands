@@ -1,0 +1,91 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "§oThe Far Lands (边境之地)",
+    "description": "By: MINECRAFT-SCPCB",
+    "uuid": "852103da-0bcb-4324-88a5-033b9875d73b",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      80
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ed4fc387-b9cd-4db0-af1f-08b524728b2c",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d0530711-9214-4d67-a6a5-5d929a081fa7",
+      "version": [
+        1,
+        0,
+        0
+      ],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "subpacks": [
+    {
+      "folder_name": "no_edge_and_corner_no_biome",
+      "name": "Lite Version ⑥ (精简版本⑥) \n No Edge Far Lands \n No biome variation with terrain blocks (Corner Far Lands).",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "no_corner_and_edge_no_biome",
+      "name": "Lite Version ⑤ (精简版本⑤) \n No Corner Far Lands \n No biome variation with terrain blocks (Edge Far Lands).",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "no_edge",
+      "name": "Lite Version ④ (精简版本④) \n No Edge Far Lands.",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "no_corner",
+      "name": "Lite Version ③ (精简版本③) \n No Corner Far Lands.",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "lite_corner",
+      "name": "Lite Version ② (精简版本②) \n Corner Far Lands with lite features.",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "no_biome",
+      "name": "Lite Version ① (精简版本①) \n No biome variation with terrain blocks.",
+      "memory_tier": 1
+    },
+    {
+      "folder_name": "default",
+      "name": "Full Version (完整版本) \n With all features.",
+      "memory_tier": 1
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "b52ba550-5da6-4ff6-9066-e3826f2fe0d7",
+      "version": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.11.0"
+    }
+  ]
+}

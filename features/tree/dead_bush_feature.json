@@ -1,0 +1,45 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:tree_feature": {
+        "description": {
+            "identifier": "farlands:tree/dead_bush_feature"
+        },
+        "trunk": {
+            "trunk_height": {
+                "range_min": 1,
+                "range_max": 1
+            },
+            "trunk_block": {
+                "name": "minecraft:deadbush"
+            }
+        },
+        "base_block": [
+            "minecraft:sandstone",
+            "minecraft:hardened_clay",
+            "minecraft:orange_terracotta",
+            "minecraft:red_terracotta",
+            "minecraft:yellow_terracotta",
+            "minecraft:white_terracotta",
+            "minecraft:light_gray_terracotta",
+            "minecraft:brown_terracotta",
+            "minecraft:sand"
+        ],
+        "may_grow_on": [
+            "minecraft:sand",
+            "minecraft:hardened_clay",
+            "minecraft:orange_terracotta",
+            "minecraft:red_terracotta",
+            "minecraft:yellow_terracotta",
+            "minecraft:white_terracotta",
+            "minecraft:light_gray_terracotta",
+            "minecraft:brown_terracotta",
+            "minecraft:sandstone"
+        ],
+        "may_replace": [
+            "minecraft:air"
+        ],
+        "may_grow_through": [
+            "minecraft:air"
+        ]
+    }
+}

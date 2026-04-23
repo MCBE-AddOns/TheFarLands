@@ -1,0 +1,31 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:geode_feature": {
+        "description": {
+            "identifier": "farlands:corner_farlands_cave_cube"
+        },
+        "filler": "minecraft:air",
+        "inner_layer": "minecraft:air",
+        "alternate_inner_layer": "minecraft:air",
+        "middle_layer": "minecraft:stone",
+        "outer_layer": "minecraft:stone",
+        "inner_placements": [
+            "minecraft:stone"
+        ],
+        "min_outer_wall_distance": 4,
+        "max_outer_wall_distance": 4,
+        "min_distribution_points": 3,
+        "max_distribution_points": 3,
+        "min_point_offset": 1,
+        "max_point_offset": 1,
+        "max_radius": 6,
+        "crack_point_offset": 2.0,
+        "generate_crack_chance": 0.95,
+        "base_crack_size": 2,
+        "noise_multiplier": 0.15,
+        "use_potential_placements_chance": 0,
+        "use_alternate_layer0_chance": 0,
+        "placements_require_layer0_alternate": true,
+        "invalid_blocks_threshold": 1
+    }
+}

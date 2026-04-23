@@ -1,0 +1,14 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:grass_feature_mega_scatter"
+        },
+        "iterations": "t.biome_check=(query.has_biome_tag('mega') == 1) ? (( v.originy >= 62 ) ? 1 : 0) : 0; return t.biome_check;",
+        "scatter_chance": 60.0,
+        "places_feature": "farlands:grass_feature_mega_aggregate",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

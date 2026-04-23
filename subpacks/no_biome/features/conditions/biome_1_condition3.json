@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wiki:conditions/biome_1_condition3"
+		},
+		"places_feature": "wiki:blocks/block_aggregate",
+		"iterations": "t.biome_idx == 1 && (v.originy <= 210 && v.originy >= 195)",
+		"x": 0,
+		"z": 0,
+		"y": " (q.noise(v.originx/t.primary_height_offset_scale + 200,v.originz/t.primary_height_offset_scale + 200) + q.noise(v.originx/t.secondary_height_offset_scale,v.originz/t.secondary_height_offset_scale))/2"
+	}
+}

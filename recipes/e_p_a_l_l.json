@@ -1,0 +1,24 @@
+{
+    "format_version": "1.12.50",
+    "minecraft:recipe_shapeless": {
+        "description": {
+            "identifier": "farlands:e_p_a_l_l"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "ingredients": [
+            {
+                "item": "minecraft:ender_pearl"
+            },
+            {
+                "item": "minecraft:dye",
+                "data": 4
+            }
+        ],
+        "result": {
+            "item": "farlands:e_p_a_l_l",
+            "count": 1
+        }
+    }
+}

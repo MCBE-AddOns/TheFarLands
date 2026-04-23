@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:tree/dead_bush_feature_scatter"
+        },
+        "iterations":   "t.height=(  ((v.worldz >= 105508 && v.worldz <= 31323200) || (v.worldz <= -105508 && v.worldz >= -31323200 ) || (v.worldx >= 105508 && v.worldx <= 31323200) || (v.worldx <= -105508 && v.worldx >= -31323200 )) && (query.has_biome_tag('desert') == 1 || query.has_biome_tag('mesa') == 1)   ) ? 1 : 0; return t.height;",
+        "places_feature": "farlands:tree/dead_bush_feature",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

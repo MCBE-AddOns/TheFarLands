@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:terrain_water"
+        },
+        "iterations": "t.height = ( ( v.originy >= 54 && v.originy <= 62 ) && ((v.originz >= 105508 && v.originz <= 31323200) || (v.originz <= -105508 && v.originz >= -31323200 ) || (v.originx >= 105508 && v.originx <= 31323200) || (v.originx <= -105508 && v.originx >= -31323200 )) ) ? 1 : 0; return t.height;",
+        "places_feature": "farlands:water_feature",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

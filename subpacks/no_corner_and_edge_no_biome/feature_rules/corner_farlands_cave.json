@@ -1,0 +1,42 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "farlands:corner_farlands_cave",
+            "places_feature": "farlands:corner_farlands_cave_cube"
+        },
+        "conditions": {
+            "placement_pass": "before_underground_pass",
+            "minecraft:biome_filter": {
+                "any_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "value": "overworld"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "value": "overworld_generation"
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": "return (( ( (v.originz < -105508 && v.originz > -31323200) || (v.originz > 105508 && v.originz < 31323200) ) || ( (v.originx < -105508 && v.originx > -31323200) || (v.originx > 105508 && v.originx < 31323200) ) ) ? 1 : 0)",
+            "x": {
+                "distribution": "gaussian",
+                "extent": [
+                    0,
+                    16
+                ]
+            },
+            "z": {
+                "distribution": "gaussian",
+                "extent": [
+                    0,
+                    8
+                ]
+            },
+            "y": "t.random = math.random_integer(105,229); t.y = (((t.random == 229) || (t.random == 209) || (t.random == 186) || (t.random == 168) || (t.random == 163) || (t.random == 125) || (t.random == 105)) ? t.random : -256); return t.y;"
+        }
+    }
+}

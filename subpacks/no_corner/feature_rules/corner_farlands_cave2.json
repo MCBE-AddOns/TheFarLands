@@ -1,0 +1,35 @@
+{
+	"format_version": "1.13.0",
+
+	"minecraft:feature_rules": {
+		"description": {
+			"identifier": "farlands:corner_farlands_cave2",
+			"places_feature": "farlands:corner_farlands_cave2_cube"
+		},
+
+		"conditions": {
+			"placement_pass": "before_underground_pass",
+
+			"minecraft:biome_filter": {
+				"any_of": [
+					{
+						"test": "has_biome_tag",
+						"value": "overworld"
+					},
+					{
+						"test": "has_biome_tag",
+						"value": "overworld_generation"
+					}
+				]
+			}
+		},
+
+		"distribution": {
+			"iterations": "return (( ( (v.originz < -105508 && v.originz > -31323200) || (v.originz > 105508 && v.originz < 31323200) ) || ( (v.originx < -105508 && v.originx > -31323200) || (v.originx > 105508 && v.originx < 31323200) ) ) ? 1 : 0);",
+
+			"x": 0,
+			"z": 0,
+			"y": "q.noise(v.originx / 64, v.originz / 64) > 0.7 ? 233 : (q.noise(v.originx / 64, v.originz / 32) > 0.7 ? 211 : (q.noise(v.originx / 32, v.originz / 32) > 0.7 ? 189 : (q.noise(v.originx / 32, v.originz / 16) > 0.7 ? 171 : (q.noise(v.originx / 16, v.originz / 32) > 0.7 ? 165 : (q.noise(v.originx / 16, v.originz / 16) > 0.7 ? 145 : (q.noise(v.originx / 16, v.originz / 8) > 0.5 ? 128 : 108))))))"
+		}
+	}
+}

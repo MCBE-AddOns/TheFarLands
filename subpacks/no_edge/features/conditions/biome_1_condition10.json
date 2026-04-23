@@ -1,0 +1,14 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wiki:conditions/biome_1_condition10"
+		},
+		"places_feature": "wiki:blocks/stone",
+		"iterations": "t.biome_idx == 1 && (v.originy <= 62 && v.originy >= -63)",
+		"x": 0,
+		"z": 0,
+		"y": " (q.noise(v.originx / 64, v.originz / 64) > 0.5 ? (q.noise(v.originx / 16, v.originz / 8) > 0.5 ? 1 : 0) : (q.noise(v.originx / 16, (v.originz + 543) / 8) > 0.5 ? 1 : 0))"
+		
+	}
+}

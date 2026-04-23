@@ -1,0 +1,12 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "wiki:blocks/dirt_mesa_0"
+		},
+		"features": [
+			"wiki:blocks/dirt_mesa_0_default_scatter",
+			"wiki:blocks/dirt_mesa_0_stone_scatter"
+		]
+	}
+}

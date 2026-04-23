@@ -1,0 +1,32 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:feature_rules": {
+        "description": {
+            "identifier": "farlands:skygrid_placement",
+            "places_feature": "farlands:skygrid/skygrid_column"
+        },
+        "conditions": {
+            "placement_pass": "before_underground_pass",
+            "minecraft:biome_filter": {
+                "all_of": [
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "not",
+                        "value": "nether"
+                    },
+                    {
+                        "test": "has_biome_tag",
+                        "operator": "not",
+                        "value": "the_end"
+                    }
+                ]
+            }
+        },
+        "distribution": {
+            "iterations": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+        }
+    }
+}

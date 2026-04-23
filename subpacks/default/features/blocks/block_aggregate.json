@@ -1,0 +1,26 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+		  "identifier": "wiki:blocks/block_aggregate"
+		  /*
+		  places the block associated with this biome
+		  see the conditions folder for the conditions
+		  to add more biomes, add more conditions (make sure to also make an entry in the conditions folder)
+		  */
+		},
+		"features": [
+			"wiki:blocks/stone",
+			"wiki:blocks/corner_farlands_growing_dirt_feature_scatter"
+			//"wiki:blocks/dirt_scatter1",
+			//"wiki:blocks/dirt_scatter2",
+			//"wiki:blocks/dirt_scatter3"
+			//"wiki:blocks/grass_scatter"
+			//"wiki:conditions/biome_2_condition",
+			//"wiki:conditions/biome_3_condition",
+			//"wiki:conditions/biome_4_condition",
+			//"wiki:conditions/biome_5_condition"
+		]
+		//"early_out": "first_success"
+	}
+}

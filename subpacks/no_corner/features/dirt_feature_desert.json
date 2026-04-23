@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:single_block_feature": {
+        "description": {
+            "identifier": "farlands:dirt_feature_desert"
+        },
+        "places_block": "minecraft:sandstone",
+        "enforce_survivability_rules": false,
+        "enforce_placement_rules": false,
+        
+        "may_replace": [
+            "minecraft:air"
+        ]
+        
+    }
+}

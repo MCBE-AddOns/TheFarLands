@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "farlands:aether_dirt",
+					"weight": 1
+				}
+			]
+		}
+	]
+}

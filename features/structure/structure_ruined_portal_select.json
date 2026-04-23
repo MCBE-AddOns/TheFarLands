@@ -1,0 +1,62 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_ruined_portal_select"
+		},
+		"features": [
+			[
+				"farlands:structure/structure_portal_1",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_2",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_3",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_4",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_5",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_6",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_7",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_8",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_9",
+				10
+			],
+			[
+				"farlands:structure/structure_portal_10",
+				10
+			],
+			[
+				"farlands:structure/structure_giant_portal_1",
+				2
+			],
+			[
+				"farlands:structure/structure_giant_portal_2",
+				2
+			],
+			[
+				"farlands:structure/structure_giant_portal_3",
+				2
+			]
+		]
+	}
+}

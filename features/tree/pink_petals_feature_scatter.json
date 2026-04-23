@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:tree/pink_petals_feature_scatter"
+        },
+        "iterations": "t.height=(  ((v.worldz >= 105508 && v.worldz <= 31323200) || (v.worldz <= -105508 && v.worldz >= -31323200 ) || (v.worldx >= 105508 && v.worldx <= 31323200) || (v.worldx <= -105508 && v.worldx >= -31323200 )) && (query.has_biome_tag('cherry_grove') == 1 )) ? ((query.noise((variable.originx) / 200.0, (variable.originz) / 200.0) < -0.8) ? 5 : 10) : 0; return t.height;",
+        "places_feature": "minecraft:pink_petals_scatter_feature",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

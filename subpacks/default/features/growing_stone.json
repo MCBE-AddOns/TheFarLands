@@ -1,0 +1,22 @@
+{
+  "format_version": "1.20.30",
+  "minecraft:growing_plant_feature": {
+    "description": {
+      "identifier": "farlands:growing_stone"
+    },
+    "height_distribution":  [
+      //[{"range_min": 1, "range_max": 4}, 5],
+      [{"range_min": 3, "range_max": 5}, 95],
+      [{"range_min": 2, "range_max": 3}, 5]
+      
+    ],
+    "growth_direction": "UP",
+    "age": {"range_min": 17, "range_max": 26},
+    "body_blocks": [
+      ["minecraft:stone", 100]
+    ],
+    "head_blocks": [
+      ["minecraft:stone", 100]
+    ]
+  }
+}

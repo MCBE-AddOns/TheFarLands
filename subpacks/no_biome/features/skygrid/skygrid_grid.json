@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "farlands:skygrid/skygrid_grid"
+		},
+		"places_feature": "farlands:skygrid/skygrid_feature",
+		"iterations": 256,
+		"x": 0,
+		"z": 0,
+		"y": {
+			"distribution": "uniform",
+			"extent": [60, 256]
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "wiki:conditions/biome_0_condition5"
+		},
+		"places_feature": "wiki:blocks/block_aggregate",
+		"iterations": " (t.biome_idx == 0 && (v.originy <= 170 && v.originy >= 155)) ",
+		"x": 0,
+		"z": 0,
+		"y": " (q.noise(v.originx / 64, v.originz / 32))"
+	}
+}

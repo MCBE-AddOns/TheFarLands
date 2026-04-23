@@ -1,0 +1,15 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:structure/structure_village_plains_scatter"
+        },
+        "iterations": "t.biome_check=(query.has_biome_tag('desert') == 0 && query.has_biome_tag('savanna') == 0 && query.has_biome_tag('ice_plains') == 0 && query.has_biome_tag('taiga') == 0) ? 1 : 0; return t.biome_check;",
+        "places_feature": "farlands:structure/structure_village_plains",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}
+
+

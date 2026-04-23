@@ -1,0 +1,99 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:single_block_feature": {
+		"description": {
+			"identifier": "wiki:blocks/air"
+		},
+		"places_block": "minecraft:air",
+		"enforce_placement_rules": false,
+		"enforce_survivability_rules": false,
+		    "may_replace": [
+      {
+        "name": "minecraft:stone",
+        "states": {
+          "stone_type": "stone"
+        }
+      },
+      {
+        "name": "minecraft:stone",
+        "states": {
+          "stone_type": "granite"
+        }
+      },
+      {
+        "name": "minecraft:stone",
+        "states": {
+          "stone_type": "diorite"
+        }
+      },
+      {
+        "name": "minecraft:stone",
+        "states": {
+          "stone_type": "andesite"
+        }
+      },
+      {
+        "name": "minecraft:monster_egg",
+        "states": {
+          "monster_egg_stone_type": "stone"
+        }
+      },
+      "minecraft:deepslate",
+      "minecraft:grass",
+   
+      "minecraft:deepslate",
+      "minecraft:glow_lichen",
+      "minecraft:vine",
+      "minecraft:coal_ore",
+      "minecraft:deepslate_coal_ore",
+      "minecraft:redstone_ore",
+      "minecraft:deepslate_redstone_ore",
+      "minecraft:lapis_ore",
+      "minecraft:deepslate_lapis_ore",
+      "minecraft:iron_ore",
+      "minecraft:deepslate_iron_ore",
+      "minecraft:gold_ore",
+      "minecraft:deepslate_gold_ore",
+      "minecraft:diamond_ore",
+      "minecraft:deepslate_diamond_ore",
+      "minecraft:emerald_ore",
+      "minecraft:deepslate_emerald_ore",
+      "minecraft:copper_ore",
+      "minecraft:deepslate_copper_ore",
+      "minecraft:ice",
+      "minecraft:infested_deepslate",
+      "minecraft:magma",
+      "minecraft:moss_block",
+      "minecraft:moss_carpet",
+      "minecraft:azalea",
+      "minecraft:flowering_azalea",
+      "minecraft:cave_vines",
+      "minecraft:cave_vines_body_with_berries",
+      "minecraft:cave_vines_head_with_berries",
+      "minecraft:hanging_roots",
+      "minecraft:small_dripleaf_block",
+      "minecraft:big_dripleaf",
+      "minecraft:vine",
+      "minecraft:dirt_with_roots",
+      "minecraft:spore_blossom",
+      "minecraft:tallgrass",
+      "minecraft:double_plant",
+      "minecraft:clay",
+      "minecraft:pointed_dripstone",
+      "minecraft:raw_copper_block",
+      "minecraft:raw_iron_block",
+      "minecraft:raw_gold_block",
+      "minecraft:dripstone_block",
+      "minecraft:tuff",
+      "minecraft:reeds",
+      "minecraft:log",
+      "minecraft:leaves",
+      "minecraft:gravel",
+      "minecraft:powder_snow",
+      "minecraft:seagrass",
+      "minecraft:podzol",
+      "minecraft:sand",
+      "minecraft:dirt" //需要替换的地形方块
+    ]
+	}
+}

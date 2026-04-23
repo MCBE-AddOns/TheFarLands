@@ -1,0 +1,12 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:structure_template_feature": {
+        "description": {
+            "identifier": "farlands:structure/structure_village_taiga_small_house_4"
+        },
+        "structure_name": "h_t:taiga_small_house_4",
+        "adjustment_radius": 1,
+        "facing_direction": "south",
+        "constraints": {}
+    }
+}

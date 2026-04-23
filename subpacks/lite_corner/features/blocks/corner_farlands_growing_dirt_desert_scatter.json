@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "wiki:blocks/corner_farlands_growing_dirt_desert_scatter"
+        },
+        "iterations": "t.biome_check=(query.has_biome_tag('desert') == 1) ? 1 : 0; return t.biome_check;",
+        "places_feature": "wiki:blocks/corner_farlands_growing_dirt_desert",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

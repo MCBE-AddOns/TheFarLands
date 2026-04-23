@@ -1,0 +1,28 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_village_savanna_town_centers"
+		},
+		"features": [
+			[
+				"farlands:structure/structure_village_savanna_meeting_point_1",
+				25
+			],
+			[
+				"farlands:structure/structure_village_savanna_meeting_point_2",
+				25
+			],
+			[
+				"farlands:structure/structure_village_savanna_meeting_point_3",
+				25
+			],
+			[
+				"farlands:structure/structure_village_savanna_meeting_point_4",
+				25
+			]
+		]
+	}
+}
+
+

@@ -1,0 +1,54 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_coralcrust_select"
+		},
+		"features": [
+			[
+				"farlands:structure/structure_crust1",
+				5
+			],
+			[
+				"farlands:structure/structure_crust2",
+				5
+			],
+			[
+				"farlands:structure/structure_crust3",
+				5
+			],
+			[
+				"farlands:structure/structure_crust4",
+				5
+			],
+			[
+				"farlands:structure/structure_crust5",
+				5
+			],
+			[
+				"farlands:structure/structure_outcropping1",
+				5
+			],
+			[
+				"farlands:structure/structure_outcropping2",
+				5
+			],
+			[
+				"farlands:structure/structure_outcropping3",
+				5
+			],
+			[
+				"farlands:structure/structure_outcropping4",
+				5
+			],
+			[
+				"farlands:structure/structure_outcropping5",
+				5
+			],
+			[
+				"farlands:structure/structure_outcropping6",
+				5
+			]
+		]
+	}
+}

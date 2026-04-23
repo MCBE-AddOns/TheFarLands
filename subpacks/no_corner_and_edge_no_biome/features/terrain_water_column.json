@@ -1,0 +1,16 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:scatter_feature": {
+		"description": {
+			"identifier": "farlands:terrain_water_column"
+		},
+		"iterations": 128,
+		"places_feature": "farlands:terrain_water",
+		"x": 0,
+		"z": 0,
+		"y": {
+			"extent": [0, 8],
+			"distribution": "fixed_grid"
+		}
+	}
+}

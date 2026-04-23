@@ -1,0 +1,13 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:aggregate_feature": {
+		"description": {
+			"identifier": "farlands:stone_feature_default"
+		},
+		"features": [
+			"farlands:stone_feature_default_stone_scatter",
+			"farlands:stone_feature_default_deepslate_scatter",
+			"farlands:stone_feature_default_deepslate_ore_scatter"
+		]
+	}
+}

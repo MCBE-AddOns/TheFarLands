@@ -1,0 +1,36 @@
+{
+	"format_version": "1.20.30",
+	"minecraft:weighted_random_feature": {
+		"description": {
+			"identifier": "farlands:structure/structure_village_plains_streets"
+		},
+		"features": [
+			[
+				"farlands:structure/structure_village_plains_straight_01",
+				5
+			],
+			[
+				"farlands:structure/structure_village_plains_straight_02",
+				5
+			],
+			[
+				"farlands:structure/structure_village_plains_straight_03",
+				5
+			],
+			[
+				"farlands:structure/structure_village_plains_straight_04",
+				5
+			],
+			[
+				"farlands:structure/structure_village_plains_straight_05",
+				5
+			],
+			[
+				"farlands:structure/structure_village_plains_straight_06",
+				5
+			]
+		]
+	}
+}
+
+

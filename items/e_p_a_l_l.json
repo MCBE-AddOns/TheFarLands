@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.50",
+    "minecraft:item": {
+        "description": {
+            "identifier": "farlands:e_p_a_l_l",
+            "menu_category": {
+                "category": "Items"
+            }
+        },
+        "components": {
+            "minecraft:glint": true,
+            "minecraft:max_stack_size": 64,
+            "minecraft:icon": {
+                "texture": "e_p_a_l_l"
+            },
+            /*
+            "minecraft:display_name": {
+                "value": "§eEnder Pearl And Lapis Lazuli"
+            },
+            */
+            "minecraft:shooter": {
+                "max_draw_duration": 1.0,
+                "scale_power_by_draw_duration": true
+            },
+            "minecraft:use_modifiers": {
+                "use_duration": 999999
+                //"movement_modifier": 0.35
+            }
+        }
+    }
+}

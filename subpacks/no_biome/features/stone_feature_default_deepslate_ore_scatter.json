@@ -1,0 +1,13 @@
+{
+    "format_version": "1.20.30",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:stone_feature_default_deepslate_ore_scatter"
+        },
+        "iterations": "t.biome_check=(v.originy >= 1 && v.originy <= 7) ? 1 : 0; return t.biome_check;",
+        "places_feature": "farlands:stone_feature_default_deepslate_ore",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}

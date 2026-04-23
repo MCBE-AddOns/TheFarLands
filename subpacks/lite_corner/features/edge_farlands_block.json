@@ -1,0 +1,13 @@
+{
+    "format_version": "1.13.0",
+    "minecraft:scatter_feature": {
+        "description": {
+            "identifier": "farlands:edge_farlands_block"
+        },
+        "places_feature": "farlands:aggregate",
+        "iterations": "t.interpolation = v.originy <= 250 ? ((((v.originz >= 105508 && v.originz <= 31323200 && v.originx <= 105508 && v.originx >= -105508) || (v.originz <= -105508 && v.originz >= -31323200 && v.originx <= 105508 && v.originx >= -105508)) \n        ? (     q.noise(v.originy / 64, v.originz / 64) > 0.25 ? (         q.noise(v.originy / 16, v.originx / 8) > 0.15 ? 1 : 0     ) : (         q.noise((v.originy + 257) / 16, (v.originx + 543) / 8) > 0.15 ? 1 : 0     ) ) \n        \n        : (((v.originx >= 105508 && v.originx <= 31323200 && v.originz <= 105508 && v.originz >= -105508) || (v.originx <= -105508 && v.originx >= -31323200 && v.originz <= 105508 && v.originz >= -105508)) \n        ? (     q.noise(v.originy / 64, v.originx / 64) > 0.25 ? (         q.noise(v.originy / 16, v.originz / 8) > 0.15 ? 1 : 0     ) : (         q.noise((v.originy + 257) / 16, (v.originz + 543) / 8) > 0.15 ? 1 : 0     ) )))\n        \n          ) : 0; return t.interpolation;",
+        "x": 0,
+        "z": 0,
+        "y": 0
+    }
+}
