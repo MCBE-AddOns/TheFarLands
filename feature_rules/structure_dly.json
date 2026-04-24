@@ -12,7 +12,7 @@
 				},
 				
 				"distribution": {
-						iterations: "return (v.originx == 105648 && v.originz == 105904) ? 1 : 0;"
+						"iterations": "return (v.originx == 105648 && v.originz == 105904) ? 1 : 0;"
 						"x": 4
 						"z": 14
 						"y": 216
