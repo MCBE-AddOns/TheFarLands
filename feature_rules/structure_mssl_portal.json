@@ -12,23 +12,11 @@
 				},
 				
 				"distribution": {
-						"iterations": "
-							v.target_x = 105829;
-							v.target_z = 105771;
-							v.target_y = 254;
-							
-							v.chunk_x = math.mod(v.target_x, 16) + 16 * (v.target_x < 0);
-							v.chunk_z = math.mod(v.target_z, 16) + 16 * (v.target_z < 0);
-							
-							return
-								v.originx == 16 * math.floor(v.target_x / 16)
-								&& v.originz == 16 * math.floor(v.target_z / 16)
-							;
-						",
+						"iterations": "return (v.originx == 105824 && v.originz == 105760) ? 1 : 0;",
 						
-						"x": "v.chunk_x",
-						"z": "v.chunk_z",
-						"y": "v.target_y"
+						"x": 5,
+						"z": 11,
+						"y": 254
 				}
 		}
 }
